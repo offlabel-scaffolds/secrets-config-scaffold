@@ -40,7 +40,7 @@ npm run build
 - Python
 - TypeScript
 
-## ️ Architecture
+## Architecture
 
 ```
 secrets-config-scaffold/
@@ -85,7 +85,6 @@ npm run test:unit
 - Error tracking
 - Performance monitoring
 
-
 ## Deployment
 
 ### Docker
@@ -129,6 +128,5 @@ MIT - Built by Augustus Rivers at Offlabel Design
 ---
 
 **Maturity:** stable | **Complexity:** intermediate | **Last Updated:** 2025-01-03
-
 
 ** CLI Available:** `npx @offlabel/${scaffold.name}`
