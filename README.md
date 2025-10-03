@@ -2,15 +2,15 @@
 
 Secure secrets management with vault integration and rotation
 
-## 🎯 Features
+## The Good Stuff
 
-- ✅ Secrets Management
-- ✅ Rotation
-- ✅ Encryption
-- ✅ Audit Logging
-- ✅ Docker
+- Secrets Management
+- Rotation
+- Encryption
+- Audit Logging
+- Docker
 
-## 🚀 Quick Start
+## Running Locally
 
 ```bash
 # Clone the repository
@@ -33,39 +33,39 @@ npm test
 npm run build
 ```
 
-## 📦 Tech Stack
+## Technologies
 
 - Vault
 - AWS Secrets Manager
 - Python
 - TypeScript
 
-## 🏗️ Architecture
+## ️ Architecture
 
 ```
 secrets-config-scaffold/
-├── src/                    # Source code
-│   ├── core/              # Core functionality
-│   ├── utils/             # Utilities
-│   └── config/            # Configuration
-├── tests/                  # Test files
-│   ├── unit/              # Unit tests
-│   └── integration/       # Integration tests
-├── docs/                   # Documentation
-├── .github/workflows/      # CI/CD pipelines
+├── src/ # Source code
+│ ├── core/ # Core functionality
+│ ├── utils/ # Utilities
+│ └── config/ # Configuration
+├── tests/ # Test files
+│ ├── unit/ # Unit tests
+│ └── integration/ # Integration tests
+├── docs/ # Documentation
+├── .github/workflows/ # CI/CD pipelines
 ├── Dockerfile
 ├── docker-compose.yml
 └── README.md
 ```
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ Encryption
-- ✅ Access Control
-- ✅ Audit Logging
-- ✅ Rotation
+- Encryption
+- Access Control
+- Audit Logging
+- Rotation
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -78,7 +78,7 @@ npm run test:coverage
 npm run test:unit
 ```
 
-## 📊 Monitoring & Observability
+## Monitoring & Observability
 
 - Structured logging
 - Metrics collection
@@ -86,7 +86,7 @@ npm run test:unit
 - Performance monitoring
 
 
-## 🚢 Deployment
+## Deployment
 
 ### Docker
 ```bash
@@ -104,7 +104,7 @@ kubectl apply -f k8s/
 docker-compose up -d
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [Getting Started](./docs/getting-started.md)
 - [Configuration](./docs/configuration.md)
@@ -112,15 +112,15 @@ docker-compose up -d
 - [Deployment Guide](./docs/deployment.md)
 - [Security Best Practices](./docs/security.md)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
 
-## 📄 License
+## License
 
 MIT - Built by Augustus Rivers at Offlabel Design
 
-## 💬 Support
+## Support
 
 - **Email:** hello@offlabel.design
 - **GitHub:** https://github.com/offlabel-scaffolds/secrets-config-scaffold
@@ -131,4 +131,4 @@ MIT - Built by Augustus Rivers at Offlabel Design
 **Maturity:** stable | **Complexity:** intermediate | **Last Updated:** 2025-01-03
 
 
-**⚡ CLI Available:** `npx @offlabel/${scaffold.name}`
+** CLI Available:** `npx @offlabel/${scaffold.name}`
