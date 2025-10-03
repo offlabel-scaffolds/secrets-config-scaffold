@@ -1,0 +1,36 @@
+{
+  "name": "secrets-config-scaffold",
+  "description": "Secure secrets management with vault integration and rotation",
+  "tech": [
+    "Vault",
+    "AWS Secrets Manager",
+    "Python",
+    "TypeScript"
+  ],
+  "categories": [
+    "devops",
+    "backend"
+  ],
+  "usecases": [
+    "enterprise",
+    "ai-ml"
+  ],
+  "maturity": "stable",
+  "complexity": "intermediate",
+  "features": [
+    "secrets-management",
+    "rotation",
+    "encryption",
+    "audit-logging",
+    "docker"
+  ],
+  "hasDemo": false,
+  "hasCLI": true,
+  "securityFeatures": [
+    "encryption",
+    "access-control",
+    "audit-logging",
+    "rotation"
+  ],
+  "lastUpdated": "2025-01-03"
+}
